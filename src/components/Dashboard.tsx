@@ -49,13 +49,13 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
         <div className="profile-img-container">
            <img src="/profile_pic.png" alt="Profile" />
         </div>
-        <div className="profile-name">Jannat Farhana</div>
-        <div className="profile-stat">Student ID: 2023-2-60-126</div>
-        <div className="profile-stat">Unique ID: 00923205101126</div>
+        <div className="profile-name">Shah Abdul Mazid</div>
+        <div className="profile-stat">Student ID: 2021-2-60-046</div>
+        <div className="profile-stat">Unique ID: 00921205101046</div>
         <div className="profile-stat">Program: CSE</div>
         <div className="profile-stat">Department: CSE</div>
-        <div className="profile-stat">Credits completed: 85.5</div>
-        <div className="profile-stat" style={{ fontWeight: 700, color: '#333' }}>CGPA: 3.10</div>
+        <div className="profile-stat">Credits completed: 137</div>
+        <div className="profile-stat" style={{ fontWeight: 700, color: '#333' }}>CGPA: 2.51</div>
       </div>
 
       <div className="profile-main">
@@ -87,13 +87,13 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
         <table className="other-details-table">
           <tbody>
              {[
-               { l: 'Admitted Semester:', v: 'Summer-2023' },
-               { l: 'Date of Admission:', v: '24/05/2023' },
-               { l: 'Date of Birth:', v: '25/11/2003' },
-               { l: 'Blood Group:', v: 'O+' },
+               { l: 'Admitted Semester:', v: 'Summer-2021' },
+               { l: 'Date of Admission:', v: '18/05/2021' },
+               { l: 'Date of Birth:', v: '10/06/2002' },
+               { l: 'Blood Group:', v: 'B+' },
                { l: 'Marital Status:', v: 'Single' },
-               { l: 'National ID:', v: '20032692004213952' },
-               { l: 'Advisor:', v: 'Rasheedul Amin Tuhin(RDA)' },
+               { l: 'National ID:', v: '20022692004213952' },
+               { l: 'Advisor:', v: 'Dr. Shah Murtaza Rashid Al Masud(SMR)' },
                { l: 'Pending Documents:', v: 'None' },
              ].map((row, idx) => (
                <tr key={idx}>
@@ -120,24 +120,24 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
             <div className="summary-card-title">Student Information</div>
             <div className="degree-input-group">
                <div className="degree-label">Student Id</div>
-               <div className="degree-value">2023-2-60-126</div>
+               <div className="degree-value">2021-2-60-046</div>
             </div>
             <div className="degree-input-group">
                <div className="degree-label">Student Name</div>
-               <div className="degree-value">Jannat Farhana</div>
+               <div className="degree-value">Shah Abdul Mazid</div>
             </div>
             <div style={{ display: 'flex', gap: '15px', marginTop: '10px' }}>
               <div className="degree-input-group">
                 <div className="degree-label" style={{ flex: '0 0 60px' }}>CGPA</div>
-                <div className="degree-value" style={{ minWidth: '80px' }}>3.10</div>
+                <div className="degree-value" style={{ minWidth: '80px' }}>2.51</div>
               </div>
               <div className="degree-input-group">
                 <div className="degree-label" style={{ flex: '0 0 60px' }}>Cr Atn</div>
-                <div className="degree-value" style={{ minWidth: '80px' }}>95.5</div>
+                <div className="degree-value" style={{ minWidth: '80px' }}>140</div>
               </div>
               <div className="degree-input-group">
                 <div className="degree-label" style={{ flex: '0 0 60px' }}>Cr Earn</div>
-                <div className="degree-value" style={{ minWidth: '80px' }}>85.5</div>
+                <div className="degree-value" style={{ minWidth: '80px' }}>137</div>
               </div>
             </div>
             <div className="degree-input-group" style={{ marginTop: '5px' }}>
@@ -146,7 +146,7 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
             </div>
             <div className="degree-input-group">
                <div className="degree-label">Remaining Credit</div>
-               <div className="degree-value" style={{ width: '100px' }}>54.5</div>
+               <div className="degree-value" style={{ width: '100px' }}>3</div>
             </div>
          </div>
 
@@ -411,11 +411,11 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', fontSize: '0.75rem', gap: '5px', marginBottom: '20px' }}>
               <div><b>Grade Report:</b> 6 Apr, 2026</div>
               <div style={{ textAlign: 'right' }}><b>Student's Copy</b></div>
-              <div><b>EWU ID:</b> 2023-2-60-126</div>
-              <div style={{ textAlign: 'right' }}>Mr. Mohammed Abul Bashar</div>
-              <div><b>Unique ID:</b> 00923205101126</div>
+              <div><b>EWU ID:</b> 2021-2-60-046</div>
+              <div style={{ textAlign: 'right' }}>Shah Abdul Mazid</div>
+              <div><b>Unique ID:</b> 00921205101046</div>
               <div style={{ textAlign: 'right' }}>House # 18/5, Middle Basabo</div>
-              <div><b>Name:</b> <b style={{ fontSize: '0.8rem' }}>Jannat Farhana</b></div>
+              <div><b>Name:</b> <b style={{ fontSize: '0.8rem' }}>Shah Abdul Mazid</b></div>
               <div style={{ textAlign: 'right' }}>Sabujbagh, Dhaka-1214</div>
               <div><b>Degree Objective:</b> B.Sc. in Computer Science and Engineering</div>
             </div>
@@ -490,9 +490,9 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
             {/* Summary Box */}
             <div style={{ marginTop: '30px', display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px', fontSize: '0.75rem', padding: '10px', border: '1px solid #333' }}>
                <div><b>Summary:</b></div>
-               <div><b>CGPA: 3.10 (out of 4.00)</b></div>
-               <div><b>gpacr: 89.50</b></div>
-               <div><b>Credit Earned: 85.50</b></div>
+               <div><b>CGPA: 2.51 (out of 4.00)</b></div>
+               <div><b>gpacr: 140.00</b></div>
+               <div><b>Credit Earned: 137.00</b></div>
             </div>
           </div>
         );
@@ -570,7 +570,7 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
               </svg>
             </div>
             <div className="user-info">
-              <span>Hi, <b>Jannat Farhana</b></span>
+              <span>Hi, <b>Shah Abdul Mazid</b></span>
               <div className="user-avatar" title="Options">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>

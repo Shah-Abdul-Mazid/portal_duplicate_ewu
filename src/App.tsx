@@ -3,8 +3,8 @@ import Dashboard from './components/Dashboard';
 
 function App() {
   const [showPassword, setShowPassword] = useState(false);
-  const [studentId, setStudentId] = useState('2023-2-60-126');
-  const [password, setPassword] = useState('Popy2023@');
+   const [studentId, setStudentId] = useState('2021-2-60-046');
+   const [password, setPassword] = useState('Ilovepopy2023@02@126');
   const [captcha, setCaptcha] = useState({ num1: 0, num2: 0 });
   const [userCaptcha, setUserCaptcha] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
