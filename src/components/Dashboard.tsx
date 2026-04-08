@@ -49,9 +49,9 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
         <div className="profile-img-container">
            <img src="/profile_pic.png" alt="Profile" />
         </div>
-        <div className="profile-name">Shah Abdul Mazid</div>
-        <div className="profile-stat">Student ID: 2021-2-60-046</div>
-        <div className="profile-stat">Unique ID: 00921205101046</div>
+        <div className="profile-name">Jannat Farhana</div>
+        <div className="profile-stat">Student ID: 2023-2-60-126</div>
+        <div className="profile-stat">Unique ID: 00923205101126</div>
         <div className="profile-stat">Program: CSE</div>
         <div className="profile-stat">Department: CSE</div>
         <div className="profile-stat">Credits completed: 137</div>
@@ -120,11 +120,11 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
             <div className="summary-card-title">Student Information</div>
             <div className="degree-input-group">
                <div className="degree-label">Student Id</div>
-               <div className="degree-value">2021-2-60-046</div>
+               <div className="degree-value">2023-2-60-126</div>
             </div>
             <div className="degree-input-group">
                <div className="degree-label">Student Name</div>
-               <div className="degree-value">Shah Abdul Mazid</div>
+               <div className="degree-value">Jannat Farhana</div>
             </div>
             <div style={{ display: 'flex', gap: '15px', marginTop: '10px' }}>
               <div className="degree-input-group">
@@ -411,11 +411,11 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', fontSize: '0.75rem', gap: '5px', marginBottom: '20px' }}>
               <div><b>Grade Report:</b> 6 Apr, 2026</div>
               <div style={{ textAlign: 'right' }}><b>Student's Copy</b></div>
-              <div><b>EWU ID:</b> 2021-2-60-046</div>
-              <div style={{ textAlign: 'right' }}>Shah Abdul Mazid</div>
-              <div><b>Unique ID:</b> 00921205101046</div>
+              <div><b>EWU ID:</b> 2023-2-60-126</div>
+              <div style={{ textAlign: 'right' }}>Jannat Farhana</div>
+              <div><b>Unique ID:</b> 00923205101126</div>
               <div style={{ textAlign: 'right' }}>House # 18/5, Middle Basabo</div>
-              <div><b>Name:</b> <b style={{ fontSize: '0.8rem' }}>Shah Abdul Mazid</b></div>
+              <div><b>Name:</b> <b style={{ fontSize: '0.8rem' }}>Jannat Farhana</b></div>
               <div style={{ textAlign: 'right' }}>Sabujbagh, Dhaka-1214</div>
               <div><b>Degree Objective:</b> B.Sc. in Computer Science and Engineering</div>
             </div>
@@ -570,7 +570,7 @@ const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
               </svg>
             </div>
             <div className="user-info">
-              <span>Hi, <b>Shah Abdul Mazid</b></span>
+              <span>Hi, <b>Jannat Farhana</b></span>
               <div className="user-avatar" title="Options">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
